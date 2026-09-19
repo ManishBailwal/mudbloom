@@ -5,19 +5,17 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-border/70 bg-background/90 backdrop-blur-xl">
       <div className="mx-auto flex h-[72px] max-w-[1280px] items-center justify-between px-6 lg:px-8">
         {/* Logo */}
-        <Link
-          href="/"
-          className="group flex items-center gap-2.5"
-          aria-label="MudBloom home"
-        >
-          <span className="flex h-9 w-9 items-center justify-center rounded-full bg-brand text-sm font-semibold text-white transition-transform duration-300 group-hover:scale-105">
-            M
-          </span>
-
-          <span className="font-heading text-[19px] font-semibold tracking-[-0.03em] text-text-primary">
-            MudBloom
-          </span>
-        </Link>
+       <Link
+  href="/"
+  className="group flex items-center"
+  aria-label="MudBloom home"
+>
+  <img
+    src="/mudbloom_logo.avif"
+    alt="MudBloom"
+    className="h-24 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+  />
+</Link>
 
         {/* Navigation */}
         <nav className="hidden items-center gap-8 md:flex">
