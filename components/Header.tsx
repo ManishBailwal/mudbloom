@@ -20,28 +20,28 @@ export default function Header() {
         {/* Navigation */}
         <nav className="hidden items-center gap-8 md:flex">
           <Link
-            href="/#about"
+            href="/about"
             className="text-sm font-medium text-text-secondary transition-colors duration-200 hover:text-text-primary"
           >
             About
           </Link>
 
           <Link
-            href="/#products"
+            href="/products"
             className="text-sm font-medium text-text-secondary transition-colors duration-200 hover:text-text-primary"
           >
             Products
           </Link>
 
           <Link
-            href="/#services"
+            href="/services"
             className="text-sm font-medium text-text-secondary transition-colors duration-200 hover:text-text-primary"
           >
             Services
           </Link>
 
           <Link
-            href="/#contact"
+            href="/contact"
             className="text-sm font-medium text-text-secondary transition-colors duration-200 hover:text-text-primary"
           >
             Contact
@@ -50,7 +50,7 @@ export default function Header() {
 
         {/* CTA */}
         <Link
-          href="/#contact"
+          href="/contact"
           className="hidden rounded-full bg-brand px-5 py-2.5 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#2B3D30] hover:shadow-lg hover:shadow-brand/10 md:inline-flex"
         >
           Let's Talk

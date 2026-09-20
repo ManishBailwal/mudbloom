@@ -390,44 +390,7 @@ export default function ProductsSection() {
 
                   {/* Explore */}
 
-                  <div
-                    className="
-                      mt-9
-                      inline-flex
-                      items-center
-                      gap-3
-                      text-sm
-                      font-medium
-                      text-text-primary
-                    "
-                  >
-                    <span>Explore product</span>
-
-                    <span
-                      className="
-                        flex
-                        h-9
-                        w-9
-                        items-center
-                        justify-center
-                        rounded-full
-                        border
-                        border-border
-                        bg-white/70
-                        transition-all
-                        duration-500
-                        group-hover:-translate-y-1
-                        group-hover:translate-x-1
-                        group-hover:bg-brand
-                        group-hover:text-white
-                      "
-                    >
-                      <ArrowUpRight
-                        size={16}
-                        strokeWidth={1.5}
-                      />
-                    </span>
-                  </div>
+                  
                 </div>
 
                 {/* =================================================
@@ -738,7 +701,7 @@ export default function ProductsSection() {
 
                 {/* Footer */}
 
-                <div
+                {/* <div
                   className="
                     absolute
                     bottom-7
@@ -765,7 +728,7 @@ export default function ProductsSection() {
                       group-hover:translate-x-1
                     "
                   />
-                </div>
+                </div> */}
               </article>
             </Link>
           </motion.div>
@@ -923,7 +886,7 @@ export default function ProductsSection() {
 
                 {/* Footer */}
 
-                <div
+                {/* <div
                   className="
                     absolute
                     bottom-7
@@ -950,7 +913,7 @@ export default function ProductsSection() {
                       group-hover:translate-x-1
                     "
                   />
-                </div>
+                </div> */}
               </article>
             </Link>
           </motion.div>
