@@ -100,6 +100,22 @@ const products = [
     number: "03",
     tags: ["Web", "Identity", "Creator"],
   },
+
+  {
+    name: "BYOBite",
+    category: "Food & Community",
+    tagline: "Good food. New people. Real connections.",
+    description:
+      "Discover local food gatherings, meet like-minded people, and share memorable experiences. BYOBite brings people together through picnics, potlucks, coffee meetups, and the simple joy of bringing your own food.",
+    image: "/byobite.png",
+    href: "https://www.bringyourownbite.com/",
+    external: true,
+    background: "#F5EBDD",
+    accent: "#527653",
+    number: "04",
+    tags: ["Community", "Food", "Local Gatherings"],
+  },
+
 ];
 
 export default function ProductsPage() {
